@@ -637,14 +637,17 @@ h3 {
 
 .items-bg1 {
   background-image: url(../img/Web-1920-2.png);
+  width: 100%;
 }
 
 .items-bg2 {
   background-image: url(../img/Web-1920-1.png);
+  width: 100%;
 }
 
 .items-bg3 {
   background-image: url(../img/Untitled-1.png);
+  width: 100%;
 }
 
 .home-text {
@@ -4783,7 +4786,7 @@ width: 100%;
   font-size: 40px;
   color: #ffffff;
   font-weight: 600;
-  margin-bottom: 5px;
+  margin-bottom: 30px;
 }
 
 .service-title .service-title-text ul {
