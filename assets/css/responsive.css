@@ -1,4 +1,9 @@
 
+@media(max-width:316px){
+   .home-slider-area .owl-dots {
+    display: none;
+  }
+}
 
 @media (max-width: 767px) {
   /* Custom CSS */
@@ -141,22 +146,43 @@
   .home-text p {
     margin-bottom: 10px;
   }
-  .home-slider-area.owl-carousel .owl-nav button.owl-prev,
+  /*.home-slider-area.owl-carousel .owl-nav button.owl-prev,
   .home-slider-area.owl-carousel .owl-nav button.owl-next {
     left: 5%;
     bottom: 30px;
     width: 30px;
     height: 30px;
-    top: 15%;
+    top: inherit;
     font-size: 18px;
     line-height: 30px;
+  }*/
+
+
+   .home-slider-area.owl-carousel .owl-nav button.owl-prev,
+  .home-slider-area.owl-carousel .owl-nav button.owl-next {
+  display: none;
   }
+
+
   .home-slider-area.owl-carousel .owl-nav button.owl-next {
     right: 5%;
     left: inherit;
   }
-  .home-slider-area .owl-dots {
-    display: none;
+  
+   .home-slider-area .owl-dots {
+    bottom: 10px;
+  }
+  .home-slider-area.owl-theme .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+  }
+  .home-slider-area.owl-theme .owl-dots .owl-dot.active span::before,
+  .home-slider-area.owl-theme .owl-dots .owl-dot:hover span::before {
+    width: 16px;
+    height: 16px;
+    left: -3px;
+    right: 0px;
+    top: -3px;
   }
   /* Service CSS */
   .service-shapes {

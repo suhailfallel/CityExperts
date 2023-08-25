@@ -33,6 +33,7 @@
         items:1,
         smartSpeed:2000,
         dots:true,
+        autoplay:true,
         autoHeight:true
     })
 
