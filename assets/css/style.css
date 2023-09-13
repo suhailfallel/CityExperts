@@ -1577,6 +1577,7 @@ h3 {
 
 .testimonial-section .sin-testiText {
   outline: none;
+  background-color:
 }
 
 .testimonial-section .sin-testiText p {
@@ -1605,11 +1606,11 @@ h3 {
 }
 
 .testimonial-section .slick-prev {
-  left: -31px;
+  left: -35px;
 }
 
 .testimonial-section .slick-next {
-  right: -31px;
+  right: -35px;
 }
 
 .testimonial-section .slick-prev:before, .testimonial-section .slick-next:before {
@@ -1632,6 +1633,7 @@ h3 {
   border-radius: 45px;
   line-height: 45px;
   font-family: inherit;
+  display: none;
 }
 
 .testimonial-section .slick-next:before {
